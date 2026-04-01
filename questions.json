@@ -1,0 +1,1178 @@
+[
+  {
+    "en": "It is important to finish your homework before dinner.",
+    "ja": "夕食前に宿題を終えることは重要です。",
+    "blankWord": "important",
+    "category": "It to構文"
+  },
+  {
+    "en": "It is difficult to understand this math problem.",
+    "ja": "この数学の問題を理解するのは難しいです。",
+    "blankWord": "difficult",
+    "category": "It to構文"
+  },
+  {
+    "en": "The book that I borrowed from the library was interesting.",
+    "ja": "私が図書館から借りた本は面白かったです。",
+    "blankWord": "that",
+    "category": "関係代名詞"
+  },
+  {
+    "en": "This is the student who won the speech contest.",
+    "ja": "こちらがスピーチコンテストで優勝した生徒です。",
+    "blankWord": "who",
+    "category": "関係代名詞"
+  },
+  {
+    "en": "The cake which she made was delicious.",
+    "ja": "彼女が作ったケーキはおいしかったです。",
+    "blankWord": "which",
+    "category": "関係代名詞"
+  },
+  {
+    "en": "Walking along the river, I saw a beautiful sunset.",
+    "ja": "川沿いを歩いていると、美しい夕日を見ました。",
+    "blankWord": "Walking",
+    "category": "分詞構文"
+  },
+  {
+    "en": "Having finished my homework, I went out to play.",
+    "ja": "宿題を終えてから、遊びに出かけました。",
+    "blankWord": "Having",
+    "category": "分詞構文"
+  },
+  {
+    "en": "If I were you, I would study harder.",
+    "ja": "もし私があなたなら、もっと一生懸命勉強するでしょう。",
+    "blankWord": "were",
+    "category": "仮定法過去"
+  },
+  {
+    "en": "If she had studied more, she would have passed the test.",
+    "ja": "もっと勉強していれば、彼女は試験に合格していたでしょう。",
+    "blankWord": "had",
+    "category": "仮定法過去完了"
+  },
+  {
+    "en": "This problem is easier than I expected.",
+    "ja": "この問題は思ったより簡単です。",
+    "blankWord": "easier",
+    "category": "比較"
+  },
+  {
+    "en": "He runs faster than anyone else in his class.",
+    "ja": "彼はクラスの誰よりも速く走ります。",
+    "blankWord": "faster",
+    "category": "比較"
+  },
+  {
+    "en": "Never have I seen such a beautiful place.",
+    "ja": "こんなに美しい場所は見たことがありません。",
+    "blankWord": "Never",
+    "category": "倒置"
+  },
+  {
+    "en": "Only then did I realize my mistake.",
+    "ja": "そのときになって初めて自分の間違いに気づきました。",
+    "blankWord": "did",
+    "category": "倒置"
+  },
+  {
+    "en": "I want to learn how to speak English fluently.",
+    "ja": "英語を流暢に話す方法を学びたいです。",
+    "blankWord": "how",
+    "category": "疑問詞＋to不定詞"
+  },
+  {
+    "en": "She decided to go to the library after school.",
+    "ja": "彼女は放課後に図書館へ行くことに決めました。",
+    "blankWord": "decided",
+    "category": "不定詞"
+  },
+  {
+    "en": "I enjoy listening to music in my free time.",
+    "ja": "私は自由時間に音楽を聴くのを楽しみます。",
+    "blankWord": "listening",
+    "category": "動名詞"
+  },
+  {
+    "en": "He stopped playing the game to study.",
+    "ja": "彼は勉強するためにゲームをやめました。",
+    "blankWord": "playing",
+    "category": "動名詞"
+  },
+  {
+    "en": "The boy playing soccer is my brother.",
+    "ja": "サッカーをしている少年は私の弟です。",
+    "blankWord": "playing",
+    "category": "現在分詞"
+  },
+  {
+    "en": "The broken window was repaired yesterday.",
+    "ja": "壊れた窓は昨日修理されました。",
+    "blankWord": "broken",
+    "category": "過去分詞"
+  },
+  {
+    "en": "She made me clean the classroom.",
+    "ja": "彼女は私に教室を掃除させました。",
+    "blankWord": "make",
+    "category": "使役動詞"
+  },
+  {
+    "en": "I had my hair cut yesterday.",
+    "ja": "昨日髪を切ってもらいました。",
+    "blankWord": "had",
+    "category": "使役動詞"
+  },
+  {
+    "en": "You must finish this report by tomorrow.",
+    "ja": "明日までにこのレポートを終えなければなりません。",
+    "blankWord": "must",
+    "category": "助動詞"
+  },
+  {
+    "en": "You should listen to your teacher carefully.",
+    "ja": "先生の話をよく聞くべきです。",
+    "blankWord": "should",
+    "category": "助動詞"
+  },
+  {
+    "en": "He can speak three languages.",
+    "ja": "彼は3か国語を話すことができます。",
+    "blankWord": "can",
+    "category": "助動詞"
+  },
+  {
+    "en": "This book is more interesting than that one.",
+    "ja": "この本はあの本より面白いです。",
+    "blankWord": "more",
+    "category": "比較"
+  },
+  {
+    "en": "She is the tallest student in her class.",
+    "ja": "彼女はクラスで一番背が高いです。",
+    "blankWord": "tallest",
+    "category": "最上級"
+  },
+  {
+    "en": "As soon as I got home, I started my homework.",
+    "ja": "家に帰るとすぐに宿題を始めました。",
+    "blankWord": "soon",
+    "category": "接続詞"
+  },
+  {
+    "en": "Although it was raining, we played soccer.",
+    "ja": "雨が降っていましたが、私たちはサッカーをしました。",
+    "blankWord": "Although",
+    "category": "接続詞"
+  },
+  {
+    "en": "If it rains tomorrow, the game will be canceled.",
+    "ja": "明日雨が降れば、試合は中止されます。",
+    "blankWord": "If",
+    "category": "条件文"
+  },
+  {
+    "en": "I will call you when I arrive at the station.",
+    "ja": "駅に着いたら電話します。",
+    "blankWord": "when",
+    "category": "接続詞"
+  },
+  {
+    "en": "She is so kind that everyone likes her.",
+    "ja": "彼女はとても親切なので、みんなに好かれています。",
+    "blankWord": "that",
+    "category": "結果構文"
+  },
+  {
+    "en": "He was too tired to walk any further.",
+    "ja": "彼は疲れすぎてこれ以上歩けませんでした。",
+    "blankWord": "too",
+    "category": "too〜to構文"
+  },
+  {
+    "en": "This box is big enough to hold all the books.",
+    "ja": "この箱はすべての本を入れるのに十分な大きさです。",
+    "blankWord": "enough",
+    "category": "enough構文"
+  },
+  {
+    "en": "I remember meeting her at the party.",
+    "ja": "私はパーティーで彼女に会ったことを覚えています。",
+    "blankWord": "meeting",
+    "category": "動名詞"
+  },
+  {
+    "en": "Please remember to lock the door.",
+    "ja": "ドアに鍵をかけるのを忘れないでください。",
+    "blankWord": "remember",
+    "category": "不定詞"
+  },
+  {
+    "en": "The more you practice, the better you become.",
+    "ja": "練習すればするほど、上達します。",
+    "blankWord": "more",
+    "category": "比較"
+  },
+  {
+    "en": "Hardly had I started studying when he called me.",
+    "ja": "勉強を始めたばかりのときに彼から電話がありました。",
+    "blankWord": "Hardly",
+    "category": "倒置"
+  },
+  {
+    "en": "There is a student waiting for you.",
+    "ja": "あなたを待っている生徒がいます。",
+    "blankWord": "There",
+    "category": "存在構文"
+  },
+  {
+    "en": "It seems that he is busy today.",
+    "ja": "彼は今日忙しいようです。",
+    "blankWord": "seems",
+    "category": "形式主語"
+  },
+  {
+    "en": "She is used to getting up early.",
+    "ja": "彼女は早起きすることに慣れています。",
+    "blankWord": "used",
+    "category": "慣用表現"
+  },
+  {
+    "en": "I am looking forward to seeing you.",
+    "ja": "あなたに会うのを楽しみにしています。",
+    "blankWord": "seeing",
+    "category": "動名詞"
+  },
+  {
+    "en": "He kept talking during the class.",
+    "ja": "彼は授業中ずっと話し続けました。",
+    "blankWord": "talking",
+    "category": "動名詞"
+  },
+  {
+    "en": "She was made to apologize for her mistake.",
+    "ja": "彼女は自分のミスについて謝らされました。",
+    "blankWord": "made",
+    "category": "受動態"
+  },
+  {
+    "en": "English is spoken all over the world.",
+    "ja": "英語は世界中で話されています。",
+    "blankWord": "spoken",
+    "category": "受動態"
+  },
+  {
+    "en": "The homework must be finished by tonight.",
+    "ja": "宿題は今夜までに終わらせなければなりません。",
+    "blankWord": "must",
+    "category": "受動態"
+  },
+  {
+    "en": "I wish I could speak English better.",
+    "ja": "もっと英語が上手に話せたらいいのに。",
+    "blankWord": "wish",
+    "category": "仮定法"
+  },
+  {
+    "en": "If only I had more time to study.",
+    "ja": "もっと勉強する時間があればいいのに。",
+    "blankWord": "only",
+    "category": "仮定法"
+  },
+  {
+    "en": "He behaves as if he were a teacher.",
+    "ja": "彼はまるで先生であるかのように振る舞います。",
+    "blankWord": "were",
+    "category": "仮定法"
+  },
+  {
+    "en": "No matter what happens, I will support you.",
+    "ja": "何が起こっても、私はあなたを支えます。",
+    "blankWord": "matter",
+    "category": "譲歩表現"
+  },
+  {
+    "en": "This is the place where we first met.",
+    "ja": "ここが私たちが初めて会った場所です。",
+    "blankWord": "where",
+    "category": "関係副詞"
+  },
+  {
+    "en": "This is the reason why he was absent from school.",
+    "ja": "これが彼が学校を休んだ理由です。",
+    "blankWord": "why",
+    "category": "関係副詞"
+  },
+  {
+    "en": "The day when we met was very special.",
+    "ja": "私たちが出会った日はとても特別でした。",
+    "blankWord": "when",
+    "category": "関係副詞"
+  },
+  {
+    "en": "The way he solved the problem was impressive.",
+    "ja": "彼がその問題を解いた方法は印象的でした。",
+    "blankWord": "way",
+    "category": "関係副詞"
+  },
+  {
+    "en": "She speaks English as if she were a native speaker.",
+    "ja": "彼女はまるでネイティブのように英語を話します。",
+    "blankWord": "were",
+    "category": "仮定法"
+  },
+  {
+    "en": "I would rather stay home than go out tonight.",
+    "ja": "今夜は外出するより家にいたいです。",
+    "blankWord": "rather",
+    "category": "慣用表現"
+  },
+  {
+    "en": "He not only plays the piano but also sings well.",
+    "ja": "彼はピアノを弾くだけでなく、歌も上手です。",
+    "blankWord": "not",
+    "category": "相関接続詞"
+  },
+  {
+    "en": "Either you or your brother has to clean the room.",
+    "ja": "あなたかあなたの兄弟のどちらかが部屋を掃除しなければなりません。",
+    "blankWord": "Either",
+    "category": "相関接続詞"
+  },
+  {
+    "en": "Neither he nor I am responsible for the mistake.",
+    "ja": "彼も私もそのミスに責任はありません。",
+    "blankWord": "Neither",
+    "category": "相関接続詞"
+  },
+  {
+    "en": "All you have to do is follow the instructions.",
+    "ja": "あなたがしなければならないのは指示に従うことだけです。",
+    "blankWord": "All",
+    "category": "関係代名詞"
+  },
+  {
+    "en": "What he said surprised everyone in the class.",
+    "ja": "彼が言ったことはクラスの全員を驚かせました。",
+    "blankWord": "What",
+    "category": "関係代名詞"
+  },
+  {
+    "en": "I found it easy to solve this problem.",
+    "ja": "この問題を解くのは簡単だとわかりました。",
+    "blankWord": "it",
+    "category": "形式目的語"
+  },
+  {
+    "en": "She made it clear that she disagreed with the idea.",
+    "ja": "彼女はその考えに反対であることを明確にしました。",
+    "blankWord": "clear",
+    "category": "形式目的語"
+  },
+  {
+    "en": "It is necessary that you submit the report today.",
+    "ja": "今日レポートを提出することが必要です。",
+    "blankWord": "necessary",
+    "category": "It that構文"
+  },
+  {
+    "en": "He suggested that we take a short break.",
+    "ja": "彼は私たちに短い休憩を取るよう提案しました。",
+    "blankWord": "suggested",
+    "category": "仮定法現在"
+  },
+  {
+    "en": "It is said that this temple is very old.",
+    "ja": "この寺はとても古いと言われています。",
+    "blankWord": "said",
+    "category": "受動態"
+  },
+  {
+    "en": "He is known to be a great scientist.",
+    "ja": "彼は偉大な科学者として知られています。",
+    "blankWord": "known",
+    "category": "受動態"
+  },
+  {
+    "en": "I saw him crossing the street.",
+    "ja": "私は彼が通りを渡っているのを見ました。",
+    "blankWord": "crossing",
+    "category": "知覚動詞"
+  },
+  {
+    "en": "She heard someone calling her name.",
+    "ja": "彼女は誰かが自分の名前を呼んでいるのを聞きました。",
+    "blankWord": "calling",
+    "category": "知覚動詞"
+  },
+  {
+    "en": "He kept me waiting for an hour.",
+    "ja": "彼は私を1時間待たせました。",
+    "blankWord": "waiting",
+    "category": "使役動詞"
+  },
+  {
+    "en": "I had him fix my bicycle.",
+    "ja": "私は彼に自転車を修理してもらいました。",
+    "blankWord": "had",
+    "category": "使役動詞"
+  },
+  {
+    "en": "The more carefully you read, the more you understand.",
+    "ja": "注意深く読めば読むほど、理解が深まります。",
+    "blankWord": "more",
+    "category": "比較"
+  },
+  {
+    "en": "He is as tall as his father.",
+    "ja": "彼は父親と同じくらい背が高いです。",
+    "blankWord": "as",
+    "category": "比較"
+  },
+  {
+    "en": "She is not as busy as she was last week.",
+    "ja": "彼女は先週ほど忙しくはありません。",
+    "blankWord": "as",
+    "category": "比較"
+  },
+  {
+    "en": "This is by far the best movie I have ever seen.",
+    "ja": "これは今まで見た中で断然最高の映画です。",
+    "blankWord": "best",
+    "category": "最上級"
+  },
+  {
+    "en": "He has lived here for ten years.",
+    "ja": "彼はここに10年間住んでいます。",
+    "blankWord": "for",
+    "category": "現在完了"
+  },
+  {
+    "en": "I have just finished my homework.",
+    "ja": "私はちょうど宿題を終えたところです。",
+    "blankWord": "just",
+    "category": "現在完了"
+  },
+  {
+    "en": "She has never been to Kyoto.",
+    "ja": "彼女は京都に行ったことがありません。",
+    "blankWord": "never",
+    "category": "現在完了"
+  },
+  {
+    "en": "Have you ever seen this movie?",
+    "ja": "この映画を見たことがありますか。",
+    "blankWord": "ever",
+    "category": "現在完了"
+  },
+  {
+    "en": "By the time I arrived, the meeting had already started.",
+    "ja": "私が到着した時には、会議はすでに始まっていました。",
+    "blankWord": "had",
+    "category": "過去完了"
+  },
+  {
+    "en": "If it had not been for your help, I would have failed.",
+    "ja": "あなたの助けがなければ、私は失敗していたでしょう。",
+    "blankWord": "not",
+    "category": "仮定法過去完了"
+  },
+  {
+    "en": "He is studying hard so that he can pass the exam.",
+    "ja": "彼は試験に合格できるように一生懸命勉強しています。",
+    "blankWord": "so",
+    "category": "目的構文"
+  },
+  {
+    "en": "She spoke loudly so that everyone could hear her.",
+    "ja": "みんなに聞こえるように彼女は大きな声で話しました。",
+    "blankWord": "that",
+    "category": "目的構文"
+  },
+  {
+    "en": "I will finish this work no matter how long it takes.",
+    "ja": "どれだけ時間がかかっても、この仕事を終わらせます。",
+    "blankWord": "matter",
+    "category": "譲歩表現"
+  },
+  {
+    "en": "Whatever you say, I will not change my mind.",
+    "ja": "あなたが何を言っても、私は考えを変えません。",
+    "blankWord": "Whatever",
+    "category": "譲歩表現"
+  },
+  {
+    "en": "He came to school even though he was sick.",
+    "ja": "彼は病気にもかかわらず学校に来ました。",
+    "blankWord": "though",
+    "category": "接続詞"
+  },
+  {
+    "en": "Because it was raining, we stayed inside.",
+    "ja": "雨が降っていたので、私たちは中にいました。",
+    "blankWord": "Because",
+    "category": "接続詞"
+  },
+  {
+    "en": "Unless you hurry, you will miss the train.",
+    "ja": "急がないと電車に乗り遅れます。",
+    "blankWord": "Unless",
+    "category": "接続詞"
+  },
+  {
+    "en": "He worked hard in order to achieve his goal.",
+    "ja": "彼は目標を達成するために一生懸命働きました。",
+    "blankWord": "order",
+    "category": "目的構文"
+  },
+  {
+    "en": "She is too young to travel alone.",
+    "ja": "彼女は一人で旅行するには若すぎます。",
+    "blankWord": "young",
+    "category": "too〜to構文"
+  },
+  {
+    "en": "This problem is easy enough for anyone to solve.",
+    "ja": "この問題は誰でも解けるほど簡単です。",
+    "blankWord": "enough",
+    "category": "enough構文"
+  },
+  {
+    "en": "He is said to have been a famous actor.",
+    "ja": "彼は有名な俳優だったと言われています。",
+    "blankWord": "have",
+    "category": "完了不定詞"
+  },
+  {
+    "en": "I am glad to have met you.",
+    "ja": "あなたに会えてうれしいです。",
+    "blankWord": "met",
+    "category": "完了不定詞"
+  },
+  {
+    "en": "She pretended to be sleeping when I entered the room.",
+    "ja": "私が部屋に入ったとき、彼女は寝ているふりをしました。",
+    "blankWord": "pretended",
+    "category": "不定詞"
+  },
+  {
+    "en": "He seems to know the answer.",
+    "ja": "彼はその答えを知っているようです。",
+    "blankWord": "seems",
+    "category": "不定詞"
+  },
+  {
+    "en": "There used to be a park here.",
+    "ja": "ここには以前公園がありました。",
+    "blankWord": "used",
+    "category": "慣用表現"
+  },
+  {
+    "en": "I am about to leave the house.",
+    "ja": "私は今まさに家を出るところです。",
+    "blankWord": "about",
+    "category": "慣用表現"
+  },
+  {
+    "en": "He is likely to win the game.",
+    "ja": "彼はその試合に勝ちそうです。",
+    "blankWord": "likely",
+    "category": "不定詞"
+  },
+  {
+    "en": "She is sure to succeed in the future.",
+    "ja": "彼女は将来きっと成功するでしょう。",
+    "blankWord": "sure",
+    "category": "不定詞"
+  },
+  {
+    "en": "It turned out that he was right.",
+    "ja": "結局、彼が正しかったことが分かりました。",
+    "blankWord": "turned",
+    "category": "形式主語"
+  },
+  {
+    "en": "What is important is that you keep trying.",
+    "ja": "重要なのは挑戦し続けることです。",
+    "blankWord": "What",
+    "category": "名詞節"
+  },
+  {
+    "en": "That he passed the exam surprised everyone.",
+    "ja": "彼が試験に合格したことは皆を驚かせました。",
+    "blankWord": "That",
+    "category": "名詞節"
+  },
+  {
+    "en": "I wonder if she will come to the party.",
+    "ja": "彼女がパーティーに来るかどうか気になります。",
+    "blankWord": "if",
+    "category": "名詞節"
+  },
+  {
+    "en": "Please tell me where you bought this bag.",
+    "ja": "このバッグをどこで買ったのか教えてください。",
+    "blankWord": "where",
+    "category": "間接疑問"
+  },
+  {
+    "en": "I don't know when he will arrive.",
+    "ja": "彼がいつ到着するのか分かりません。",
+    "blankWord": "when",
+    "category": "間接疑問"
+  },
+  {
+    "en": "The girl whose bike was stolen is my friend.",
+    "ja": "自転車を盗まれた少女は私の友達です。",
+    "blankWord": "whose",
+    "category": "関係代名詞"
+  },
+  {
+    "en": "This is the house in which he was born.",
+    "ja": "ここが彼が生まれた家です。",
+    "blankWord": "which",
+    "category": "関係代名詞"
+  },
+  {
+    "en": "The man to whom I spoke was very kind.",
+    "ja": "私が話しかけた男性はとても親切でした。",
+    "blankWord": "whom",
+    "category": "関係代名詞"
+  },
+  {
+    "en": "She has a friend who lives in Canada.",
+    "ja": "彼女にはカナダに住んでいる友達がいます。",
+    "blankWord": "who",
+    "category": "関係代名詞"
+  },
+  {
+    "en": "I visited the city where my father grew up.",
+    "ja": "私は父が育った町を訪れました。",
+    "blankWord": "where",
+    "category": "関係副詞"
+  },
+  {
+    "en": "He studied hard, hoping to pass the exam.",
+    "ja": "彼は試験に合格することを願って一生懸命勉強しました。",
+    "blankWord": "hoping",
+    "category": "分詞構文"
+  },
+  {
+    "en": "Being tired, she went to bed early.",
+    "ja": "疲れていたので、彼女は早く寝ました。",
+    "blankWord": "Being",
+    "category": "分詞構文"
+  },
+  {
+    "en": "If I had known the truth, I would not have trusted him.",
+    "ja": "もし真実を知っていたら、彼を信頼しなかったでしょう。",
+    "blankWord": "known",
+    "category": "仮定法過去完了"
+  },
+  {
+    "en": "If I were rich, I could travel around the world.",
+    "ja": "もしお金持ちなら、世界中を旅行できるのに。",
+    "blankWord": "were",
+    "category": "仮定法過去"
+  },
+  {
+    "en": "He speaks English better than I do.",
+    "ja": "彼は私より英語を上手に話します。",
+    "blankWord": "better",
+    "category": "比較"
+  },
+  {
+    "en": "This is the most interesting book I have ever read.",
+    "ja": "これは今まで読んだ中で最も面白い本です。",
+    "blankWord": "most",
+    "category": "最上級"
+  },
+  {
+    "en": "Little did I know that my life would change that day.",
+    "ja": "その日、自分の人生が変わるとは全く知りませんでした。",
+    "blankWord": "Little",
+    "category": "倒置"
+  },
+  {
+    "en": "So tired was he that he fell asleep immediately.",
+    "ja": "彼はとても疲れていたので、すぐに眠ってしまいました。",
+    "blankWord": "So",
+    "category": "倒置"
+  },
+  {
+    "en": "I am happy to help you with your homework.",
+    "ja": "あなたの宿題を手伝えてうれしいです。",
+    "blankWord": "happy",
+    "category": "不定詞"
+  },
+  {
+    "en": "She wants to become a teacher in the future.",
+    "ja": "彼女は将来教師になりたいと思っています。",
+    "blankWord": "become",
+    "category": "不定詞"
+  },
+  {
+    "en": "I enjoy playing tennis after school.",
+    "ja": "私は放課後にテニスをするのを楽しみます。",
+    "blankWord": "playing",
+    "category": "動名詞"
+  },
+  {
+    "en": "He finished writing the report last night.",
+    "ja": "彼は昨夜レポートを書き終えました。",
+    "blankWord": "writing",
+    "category": "動名詞"
+  },
+  {
+    "en": "The students studying in the library are very quiet.",
+    "ja": "図書館で勉強している生徒たちはとても静かです。",
+    "blankWord": "studying",
+    "category": "現在分詞"
+  },
+  {
+    "en": "The homework given by the teacher was difficult.",
+    "ja": "先生に出された宿題は難しかったです。",
+    "blankWord": "given",
+    "category": "過去分詞"
+  },
+  {
+    "en": "My teacher made me rewrite the essay.",
+    "ja": "先生は私にその作文を書き直させました。",
+    "blankWord": "made",
+    "category": "使役動詞"
+  },
+  {
+    "en": "I let him use my computer.",
+    "ja": "私は彼に自分のコンピューターを使わせました。",
+    "blankWord": "let",
+    "category": "使役動詞"
+  },
+  {
+    "en": "You must not use your phone during the test.",
+    "ja": "試験中に携帯電話を使ってはいけません。",
+    "blankWord": "must",
+    "category": "助動詞"
+  },
+  {
+    "en": "You had better finish your homework now.",
+    "ja": "今すぐ宿題を終えたほうがいいです。",
+    "blankWord": "better",
+    "category": "助動詞"
+  },
+  {
+    "en": "She can play the piano very well.",
+    "ja": "彼女はピアノをとても上手に弾けます。",
+    "blankWord": "can",
+    "category": "助動詞"
+  },
+  {
+    "en": "This movie is less interesting than I expected.",
+    "ja": "この映画は思ったほど面白くありません。",
+    "blankWord": "less",
+    "category": "比較"
+  },
+  {
+    "en": "He is the fastest runner on the team.",
+    "ja": "彼はチームで一番速いランナーです。",
+    "blankWord": "fastest",
+    "category": "最上級"
+  },
+  {
+    "en": "As long as you try, you will improve.",
+    "ja": "努力し続ければ、上達します。",
+    "blankWord": "long",
+    "category": "接続詞"
+  },
+  {
+    "en": "Even if it is difficult, you should not give up.",
+    "ja": "たとえ難しくても、あきらめるべきではありません。",
+    "blankWord": "Even",
+    "category": "接続詞"
+  },
+  {
+    "en": "When I was a child, I often played outside.",
+    "ja": "子どもの頃、よく外で遊びました。",
+    "blankWord": "When",
+    "category": "接続詞"
+  },
+  {
+    "en": "She is so busy that she cannot join us.",
+    "ja": "彼女はとても忙しいので、私たちに参加できません。",
+    "blankWord": "so",
+    "category": "結果構文"
+  },
+  {
+    "en": "He was too nervous to speak in front of the class.",
+    "ja": "彼は緊張しすぎてクラスの前で話せませんでした。",
+    "blankWord": "too",
+    "category": "too〜to構文"
+  },
+  {
+    "en": "This room is large enough for everyone.",
+    "ja": "この部屋は全員にとって十分広いです。",
+    "blankWord": "enough",
+    "category": "enough構文"
+  },
+  {
+    "en": "I regret not studying harder for the exam.",
+    "ja": "試験のためにもっと勉強しなかったことを後悔しています。",
+    "blankWord": "studying",
+    "category": "動名詞"
+  },
+  {
+    "en": "Please stop talking during the lesson.",
+    "ja": "授業中は話すのをやめてください。",
+    "blankWord": "talking",
+    "category": "動名詞"
+  },
+  {
+    "en": "He was seen leaving the building.",
+    "ja": "彼が建物を出るところを見られていました。",
+    "blankWord": "seen",
+    "category": "受動態"
+  },
+  {
+    "en": "The project will be completed by next week.",
+    "ja": "そのプロジェクトは来週までに完了する予定です。",
+    "blankWord": "completed",
+    "category": "受動態"
+  },
+  {
+    "en": "I wish I had more friends to talk with.",
+    "ja": "もっと話せる友達がいればいいのに。",
+    "blankWord": "wish",
+    "category": "仮定法"
+  },
+  {
+    "en": "If only I were better at math.",
+    "ja": "もっと数学が得意だったらいいのに。",
+    "blankWord": "only",
+    "category": "仮定法"
+  },
+  {
+    "en": "He acts as if he knew everything.",
+    "ja": "彼はまるですべてを知っているかのように振る舞います。",
+    "blankWord": "knew",
+    "category": "仮定法"
+  },
+  {
+    "en": "No matter how busy you are, you should take a rest.",
+    "ja": "どんなに忙しくても、休憩を取るべきです。",
+    "blankWord": "matter",
+    "category": "譲歩表現"
+  },
+  {
+    "en": "This is the school where I studied English.",
+    "ja": "ここが私が英語を勉強した学校です。",
+    "blankWord": "where",
+    "category": "関係副詞"
+  },
+  {
+    "en": "It is said that he can solve any problem.",
+    "ja": "彼はどんな問題でも解けると言われています。",
+    "blankWord": "said",
+    "category": "受動態"
+  },
+  {
+    "en": "He seems to have finished the work.",
+    "ja": "彼はその仕事を終えたようです。",
+    "blankWord": "seems",
+    "category": "完了不定詞"
+  },
+  {
+    "en": "It is easy for students to understand this rule.",
+    "ja": "この規則は生徒にとって理解しやすいです。",
+    "blankWord": "easy",
+    "category": "It to構文"
+  },
+  {
+    "en": "It is important that you arrive on time.",
+    "ja": "時間通りに到着することが重要です。",
+    "blankWord": "important",
+    "category": "It that構文"
+  },
+  {
+    "en": "The teacher whom we met yesterday was very kind.",
+    "ja": "昨日会った先生はとても親切でした。",
+    "blankWord": "whom",
+    "category": "関係代名詞"
+  },
+  {
+    "en": "The car which is parked over there is mine.",
+    "ja": "あそこに止めてある車は私のものです。",
+    "blankWord": "which",
+    "category": "関係代名詞"
+  },
+  {
+    "en": "The boy who is running in the park is my cousin.",
+    "ja": "公園で走っている少年は私のいとこです。",
+    "blankWord": "who",
+    "category": "関係代名詞"
+  },
+  {
+    "en": "Turning the corner, I saw my friend.",
+    "ja": "角を曲がると、友達に会いました。",
+    "blankWord": "Turning",
+    "category": "分詞構文"
+  },
+  {
+    "en": "Having done the work, she went home.",
+    "ja": "仕事を終えて、彼女は家に帰りました。",
+    "blankWord": "Having",
+    "category": "分詞構文"
+  },
+  {
+    "en": "If I were taller, I could play basketball better.",
+    "ja": "もっと背が高ければ、もっと上手にバスケットボールができるのに。",
+    "blankWord": "were",
+    "category": "仮定法過去"
+  },
+  {
+    "en": "If he had left earlier, he would have caught the train.",
+    "ja": "もっと早く出発していれば、電車に間に合ったでしょう。",
+    "blankWord": "had",
+    "category": "仮定法過去完了"
+  },
+  {
+    "en": "This question is more difficult than the last one.",
+    "ja": "この問題は前のものより難しいです。",
+    "blankWord": "more",
+    "category": "比較"
+  },
+  {
+    "en": "She is the most hardworking student in the class.",
+    "ja": "彼女はクラスで最も努力家の生徒です。",
+    "blankWord": "most",
+    "category": "最上級"
+  },
+  {
+    "en": "Never did he give up on his dream.",
+    "ja": "彼は決して夢をあきらめませんでした。",
+    "blankWord": "Never",
+    "category": "倒置"
+  },
+  {
+    "en": "Only after the meeting did I understand the problem.",
+    "ja": "会議の後になって初めてその問題を理解しました。",
+    "blankWord": "did",
+    "category": "倒置"
+  },
+  {
+    "en": "I want to know how to solve this equation.",
+    "ja": "この方程式の解き方を知りたいです。",
+    "blankWord": "how",
+    "category": "疑問詞＋to不定詞"
+  },
+  {
+    "en": "She plans to study abroad next year.",
+    "ja": "彼女は来年留学する予定です。",
+    "blankWord": "plans",
+    "category": "不定詞"
+  },
+  {
+    "en": "I like reading books before going to bed.",
+    "ja": "寝る前に本を読むのが好きです。",
+    "blankWord": "reading",
+    "category": "動名詞"
+  },
+  {
+    "en": "He stopped to talk to his teacher.",
+    "ja": "彼は先生と話すために立ち止まりました。",
+    "blankWord": "talk",
+    "category": "不定詞"
+  },
+  {
+    "en": "The girl singing on the stage is my sister.",
+    "ja": "ステージで歌っている少女は私の妹です。",
+    "blankWord": "singing",
+    "category": "現在分詞"
+  },
+  {
+    "en": "The letter written by him was very touching.",
+    "ja": "彼によって書かれた手紙はとても感動的でした。",
+    "blankWord": "written",
+    "category": "過去分詞"
+  },
+  {
+    "en": "My parents made me clean my room.",
+    "ja": "両親は私に部屋を掃除させました。",
+    "blankWord": "made",
+    "category": "使役動詞"
+  },
+  {
+    "en": "I had my friend check my homework.",
+    "ja": "私は友達に宿題を確認してもらいました。",
+    "blankWord": "had",
+    "category": "使役動詞"
+  },
+  {
+    "en": "You must be quiet in the library.",
+    "ja": "図書館では静かにしなければなりません。",
+    "blankWord": "must",
+    "category": "助動詞"
+  },
+  {
+    "en": "You should finish your work before leaving.",
+    "ja": "帰る前に仕事を終えるべきです。",
+    "blankWord": "should",
+    "category": "助動詞"
+  },
+  {
+    "en": "He can solve this problem easily.",
+    "ja": "彼はこの問題を簡単に解くことができます。",
+    "blankWord": "can",
+    "category": "助動詞"
+  },
+  {
+    "en": "This bag is as heavy as that one.",
+    "ja": "このバッグはあのバッグと同じくらい重いです。",
+    "blankWord": "as",
+    "category": "比較"
+  },
+  {
+    "en": "She is not as tall as her sister.",
+    "ja": "彼女は姉ほど背が高くありません。",
+    "blankWord": "as",
+    "category": "比較"
+  },
+  {
+    "en": "As soon as the bell rang, the students left the classroom.",
+    "ja": "ベルが鳴るとすぐに、生徒たちは教室を出ました。",
+    "blankWord": "soon",
+    "category": "接続詞"
+  },
+  {
+    "en": "Although he was tired, he continued working.",
+    "ja": "疲れていましたが、彼は働き続けました。",
+    "blankWord": "Although",
+    "category": "接続詞"
+  },
+  {
+    "en": "If you study hard, you will succeed.",
+    "ja": "一生懸命勉強すれば成功します。",
+    "blankWord": "If",
+    "category": "条件文"
+  },
+  {
+    "en": "I will help you if you need it.",
+    "ja": "必要なら手伝います。",
+    "blankWord": "if",
+    "category": "条件文"
+  },
+  {
+    "en": "She was so tired that she fell asleep quickly.",
+    "ja": "彼女はとても疲れていたので、すぐに眠ってしまいました。",
+    "blankWord": "so",
+    "category": "結果構文"
+  },
+  {
+    "en": "He is too young to understand this issue.",
+    "ja": "彼はこの問題を理解するには若すぎます。",
+    "blankWord": "too",
+    "category": "too〜to構文"
+  },
+  {
+    "en": "This box is small enough to carry easily.",
+    "ja": "この箱は簡単に運べるほど小さいです。",
+    "blankWord": "enough",
+    "category": "enough構文"
+  },
+  {
+    "en": "I remember seeing him at the station.",
+    "ja": "駅で彼を見かけたことを覚えています。",
+    "blankWord": "seeing",
+    "category": "動名詞"
+  },
+  {
+    "en": "Please try to finish this task today.",
+    "ja": "この課題を今日終わらせるようにしてください。",
+    "blankWord": "try",
+    "category": "不定詞"
+  },
+  {
+    "en": "The more you read, the smarter you become.",
+    "ja": "読めば読むほど賢くなります。",
+    "blankWord": "more",
+    "category": "比較"
+  },
+  {
+    "en": "Hardly had we started when it began to rain.",
+    "ja": "私たちが始めた途端に雨が降り始めました。",
+    "blankWord": "Hardly",
+    "category": "倒置"
+  },
+  {
+    "en": "There are many students studying in the library.",
+    "ja": "図書館で勉強している生徒がたくさんいます。",
+    "blankWord": "There",
+    "category": "存在構文"
+  },
+  {
+    "en": "It seems that she knows the answer.",
+    "ja": "彼女はその答えを知っているようです。",
+    "blankWord": "seems",
+    "category": "形式主語"
+  },
+  {
+    "en": "He is used to playing soccer every day.",
+    "ja": "彼は毎日サッカーをすることに慣れています。",
+    "blankWord": "used",
+    "category": "慣用表現"
+  },
+  {
+    "en": "I am looking forward to meeting you again.",
+    "ja": "またあなたに会うのを楽しみにしています。",
+    "blankWord": "meeting",
+    "category": "動名詞"
+  },
+  {
+    "en": "He kept running despite the heavy rain.",
+    "ja": "大雨にもかかわらず、彼は走り続けました。",
+    "blankWord": "running",
+    "category": "動名詞"
+  },
+  {
+    "en": "She was asked to answer the question.",
+    "ja": "彼女はその質問に答えるよう求められました。",
+    "blankWord": "asked",
+    "category": "受動態"
+  },
+  {
+    "en": "The homework should be completed by tomorrow.",
+    "ja": "宿題は明日までに終わらせるべきです。",
+    "blankWord": "completed",
+    "category": "受動態"
+  },
+  {
+    "en": "I wish I could play the guitar.",
+    "ja": "ギターが弾けたらいいのに。",
+    "blankWord": "wish",
+    "category": "仮定法"
+  },
+  {
+    "en": "If only I had studied harder for the test.",
+    "ja": "もっと試験のために勉強していればよかったのに。",
+    "blankWord": "only",
+    "category": "仮定法"
+  },
+  {
+    "en": "He talks as if he were an expert.",
+    "ja": "彼はまるで専門家のように話します。",
+    "blankWord": "were",
+    "category": "仮定法"
+  },
+  {
+    "en": "No matter what you choose, I will support you.",
+    "ja": "何を選んでも、私はあなたを応援します。",
+    "blankWord": "matter",
+    "category": "譲歩表現"
+  },
+  {
+    "en": "This is the place where we used to play.",
+    "ja": "ここは私たちがよく遊んだ場所です。",
+    "blankWord": "where",
+    "category": "関係副詞"
+  }
+]

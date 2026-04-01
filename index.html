@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Typing Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="setup-screen" class="screen active">
+            <h1>🎧 English Typing Master</h1>
+            <p>高校生向け 英語リスニング＆タイピング</p>
+            
+            <div class="settings-box">
+                <div class="setting-item">
+                    <label>学習モード:</label>
+                    <select id="setting-mode">
+                        <option value="practice">練習（正解が薄く表示されます）</option>
+                        <option value="test">テスト（正解は隠されます）</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <label>出題形式:</label>
+                    <select id="setting-type">
+                        <option value="sentence">フルセンテンス</option>
+                        <option value="blank">穴埋め</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <label>問題数:</label>
+                    <select id="setting-count">
+                        <option value="5">5問（テスト用）</option>
+                        <option value="10" selected>10問</option>
+                        <option value="20">20問</option>
+                        <option value="50">50問</option>
+                    </select>
+                </div>
+                <button id="start-btn" class="primary-btn">学習をスタート</button>
+            </div>
+        </div>
+
+        <div id="play-screen" class="screen">
+            <div class="header-info">
+                <span id="progress-text">問題: 1 / 10</span>
+                <span id="category-badge">文法カテゴリ</span>
+            </div>
+            
+            <div class="question-area">
+                <p id="ja-text">日本語の訳がここに表示されます</p>
+                <p id="en-display" class="en-text"></p>
+                <p id="en-hint" class="en-hint"></p>
+            </div>
+            
+            <div class="input-area">
+                <input type="text" id="type-input" placeholder="Type here..." autocomplete="off" spellcheck="false">
+            </div>
+            
+            <div class="controls">
+                <button id="audio-btn" class="icon-btn">🔊 音声を聞く</button>
+            </div>
+        </div>
+
+        <div id="result-screen" class="screen">
+            <h2>🎉 セッション完了！</h2>
+            <div class="result-stats">
+                <p>挑戦した問題数: <span id="res-total">0</span> 問</p>
+                <p>タイプミス回数: <span id="res-miss">0</span> 回</p>
+            </div>
+            <button id="retry-btn" class="primary-btn">トップに戻る</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
