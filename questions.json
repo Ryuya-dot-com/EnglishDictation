@@ -116,7 +116,7 @@
   {
     "en": "She made me clean the classroom.",
     "ja": "彼女は私に教室を掃除させました。",
-    "blankWord": "make",
+    "blankWord": "made",
     "category": "使役動詞"
   },
   {
@@ -423,18 +423,21 @@
     "en": "The more carefully you read, the more you understand.",
     "ja": "注意深く読めば読むほど、理解が深まります。",
     "blankWord": "more",
+    "blankOccurrence": 1,
     "category": "比較"
   },
   {
     "en": "He is as tall as his father.",
     "ja": "彼は父親と同じくらい背が高いです。",
     "blankWord": "as",
+    "blankOccurrence": 1,
     "category": "比較"
   },
   {
     "en": "She is not as busy as she was last week.",
     "ja": "彼女は先週ほど忙しくはありません。",
     "blankWord": "as",
+    "blankOccurrence": 1,
     "category": "比較"
   },
   {
@@ -1029,12 +1032,14 @@
     "en": "This bag is as heavy as that one.",
     "ja": "このバッグはあのバッグと同じくらい重いです。",
     "blankWord": "as",
+    "blankOccurrence": 1,
     "category": "比較"
   },
   {
     "en": "She is not as tall as her sister.",
     "ja": "彼女は姉ほど背が高くありません。",
     "blankWord": "as",
+    "blankOccurrence": 1,
     "category": "比較"
   },
   {
