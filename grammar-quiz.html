@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文法の1問チェック | English Dictation Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container quiz-container">
+        <div id="quiz-setup-screen" class="screen active">
+            <h1>文法の1問チェック</h1>
+            <p class="lead-text">カテゴリ別の 4 択チェックで、文法の見分け方を短時間で確認できます。</p>
+
+            <div class="settings-box">
+                <div class="setting-grid">
+                    <div class="setting-item">
+                        <label for="quiz-section">セクション</label>
+                        <select id="quiz-section">
+                            <option value="all">すべて</option>
+                        </select>
+                    </div>
+                    <div class="setting-item">
+                        <label for="quiz-category">カテゴリ</label>
+                        <select id="quiz-category">
+                            <option value="all">すべて</option>
+                        </select>
+                    </div>
+                    <div class="setting-item">
+                        <label for="quiz-count">問題数</label>
+                        <select id="quiz-count">
+                            <option value="5">5問</option>
+                            <option value="10" selected>10問</option>
+                            <option value="20">20問</option>
+                            <option value="all">すべて</option>
+                        </select>
+                    </div>
+                    <div class="setting-item">
+                        <label for="quiz-order">出題順</label>
+                        <select id="quiz-order">
+                            <option value="random" selected>ランダム</option>
+                            <option value="section">並び順</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="settings-note">
+                    <p>各カテゴリにつき 1 問です。迷ったら、対応カテゴリの解説へ戻って確認してください。</p>
+                    <p>問題データは `docs/grammar-review-quiz.md` をそのまま読み込みます。</p>
+                </div>
+
+                <p id="quiz-setup-status" class="setup-status" aria-live="polite">問題を読み込んでいます。</p>
+
+                <div class="resource-links">
+                    <a href="index.html" class="secondary-btn resource-link">ディクテーションに戻る</a>
+                    <a href="docs/grammar-review-quiz.md" class="ghost-btn resource-link">問題Markdownを見る</a>
+                </div>
+
+                <button id="quiz-start-btn" class="primary-btn" type="button">チェックを始める</button>
+            </div>
+        </div>
+
+        <div id="quiz-play-screen" class="screen">
+            <div class="header-info">
+                <span id="quiz-progress-text">問題: 1 / 10</span>
+                <div class="header-badges">
+                    <span id="quiz-section-badge" class="badge">セクション</span>
+                    <span id="quiz-category-badge" class="badge secondary-badge">カテゴリ</span>
+                </div>
+            </div>
+
+            <div class="session-stats">
+                <span id="quiz-score-text">正解: 0問</span>
+                <span id="quiz-remaining-text">残り: 10問</span>
+            </div>
+
+            <div class="focus-panel">
+                <span class="feedback-label">Question</span>
+                <p id="quiz-instruction" class="focus-summary">最も適切なものを 1 つ選んでください。</p>
+            </div>
+
+            <div class="question-area">
+                <p id="quiz-question-text" class="quiz-question-text"></p>
+                <div id="quiz-options" class="quiz-options"></div>
+                <p id="quiz-live-feedback" class="live-feedback" aria-live="polite">まだ解答していません。</p>
+            </div>
+
+            <div id="quiz-feedback-panel" class="question-feedback hidden">
+                <h2 id="quiz-feedback-title">解説</h2>
+
+                <div class="feedback-columns">
+                    <div class="feedback-block">
+                        <span class="feedback-label">正解</span>
+                        <p id="quiz-correct-text"></p>
+                    </div>
+                    <div class="feedback-block">
+                        <span class="feedback-label">あなたの選択</span>
+                        <p id="quiz-user-text"></p>
+                    </div>
+                </div>
+
+                <p id="quiz-point-text" class="feedback-summary"></p>
+                <button id="quiz-next-btn" class="primary-btn" type="button">次の問題へ</button>
+            </div>
+        </div>
+
+        <div id="quiz-result-screen" class="screen">
+            <h2>Quiz Review</h2>
+
+            <div class="result-stats">
+                <div class="stat-card">
+                    <span class="stat-label">挑戦</span>
+                    <strong id="quiz-result-total">0</strong>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">正解</span>
+                    <strong id="quiz-result-correct">0</strong>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">不正解</span>
+                    <strong id="quiz-result-incorrect">0</strong>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">正答率</span>
+                    <strong id="quiz-result-accuracy">0%</strong>
+                </div>
+            </div>
+
+            <p id="quiz-result-note" class="progress-note"></p>
+
+            <div class="result-section">
+                <h3>復習したい問題</h3>
+                <div id="quiz-review-list" class="review-list"></div>
+            </div>
+
+            <div class="result-actions">
+                <button id="quiz-retry-btn" class="secondary-btn" type="button">同じ条件でもう一度</button>
+                <button id="quiz-top-btn" class="primary-btn" type="button">設定に戻る</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="grammar-quiz.js"></script>
+</body>
+</html>

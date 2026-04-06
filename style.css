@@ -167,6 +167,14 @@ input.error {
     border: 1px solid rgba(15, 157, 138, 0.16);
 }
 
+.study-tools {
+    margin-top: 18px;
+    padding: 18px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.76);
+    border: 1px solid rgba(23, 50, 77, 0.1);
+}
+
 .dashboard-header {
     display: flex;
     align-items: flex-start;
@@ -224,6 +232,20 @@ input.error {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.resource-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.resource-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .chip-btn {
@@ -331,6 +353,54 @@ input.error {
         linear-gradient(135deg, rgba(15, 157, 138, 0.08), rgba(255, 255, 255, 0.82)),
         var(--surface-strong);
     border: 1px solid rgba(15, 157, 138, 0.12);
+}
+
+.quiz-container {
+    max-width: 900px;
+}
+
+.quiz-question-text {
+    margin-bottom: 0;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.55;
+    color: var(--ink-strong);
+}
+
+.quiz-options {
+    display: grid;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.quiz-option-btn {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    text-align: left;
+    border: 1px solid rgba(23, 50, 77, 0.1);
+}
+
+.quiz-option-btn strong {
+    min-width: 28px;
+    color: var(--accent-dark);
+}
+
+.quiz-option-btn span {
+    line-height: 1.6;
+}
+
+.quiz-option-btn.is-correct {
+    background: rgba(15, 157, 138, 0.12);
+    border-color: rgba(15, 157, 138, 0.26);
+    color: var(--ink-strong);
+}
+
+.quiz-option-btn.is-wrong {
+    background: rgba(216, 79, 104, 0.12);
+    border-color: rgba(216, 79, 104, 0.24);
+    color: var(--ink-strong);
 }
 
 .ja-text {

@@ -1179,5 +1179,1226 @@
     "ja": "ここは私たちがよく遊んだ場所です。",
     "blankWord": "where",
     "category": "関係副詞"
+  },
+  {
+    "en": "It is exciting to learn about different cultures through English.",
+    "ja": "英語を通してさまざまな文化について学ぶのはわくわくします。",
+    "blankWord": "exciting",
+    "category": "It to構文"
+  },
+  {
+    "en": "It was careless of me to leave my notebook on the train.",
+    "ja": "電車にノートを置き忘れたのは私の不注意でした。",
+    "blankWord": "careless",
+    "category": "It to構文"
+  },
+  {
+    "en": "The doctor suggested that he stay in bed for a few days.",
+    "ja": "医者は彼が2、3日ベッドで休むように勧めました。",
+    "blankWord": "stay",
+    "category": "仮定法現在"
+  },
+  {
+    "en": "It is essential that every student be on time for the presentation.",
+    "ja": "発表にはすべての生徒が時間通りに来ることが不可欠です。",
+    "blankWord": "be",
+    "category": "仮定法現在"
+  },
+  {
+    "en": "She had already left when I called her.",
+    "ja": "私が彼女に電話したとき、彼女はすでに出発していました。",
+    "blankWord": "had",
+    "category": "過去完了"
+  },
+  {
+    "en": "I realized that I had forgotten my wallet at home.",
+    "ja": "私は財布を家に忘れてきたことに気づきました。",
+    "blankWord": "forgotten",
+    "category": "過去完了"
+  },
+  {
+    "en": "It was Tom that broke the window during practice.",
+    "ja": "練習中に窓を割ったのはトムでした。",
+    "blankWord": "that",
+    "category": "It that構文"
+  },
+  {
+    "en": "It is in this room that we usually practice speaking English.",
+    "ja": "私たちが普段英語を話す練習をしているのはこの部屋です。",
+    "blankWord": "that",
+    "category": "It that構文"
+  },
+  {
+    "en": "Can you tell me what time the store closes?",
+    "ja": "その店が何時に閉まるのか教えてくれますか。",
+    "blankWord": "what",
+    "category": "間接疑問"
+  },
+  {
+    "en": "Do you remember how long the movie was?",
+    "ja": "その映画がどのくらいの長さだったか覚えていますか。",
+    "blankWord": "how",
+    "category": "間接疑問"
+  },
+  {
+    "en": "He taught me where to get affordable textbooks.",
+    "ja": "彼は手ごろな教科書をどこで手に入れられるか教えてくれました。",
+    "blankWord": "where",
+    "category": "疑問詞＋to不定詞"
+  },
+  {
+    "en": "We discussed what to write in the final paragraph.",
+    "ja": "私たちは最後の段落に何を書くべきか話し合いました。",
+    "blankWord": "what",
+    "category": "疑問詞＋to不定詞"
+  },
+  {
+    "en": "The new schedule made it possible for us to practice every day.",
+    "ja": "新しい予定表のおかげで、私たちは毎日練習できるようになりました。",
+    "blankWord": "possible",
+    "category": "形式目的語"
+  },
+  {
+    "en": "I consider it important that everyone share their ideas.",
+    "ja": "私はみんなが自分の考えを共有することが重要だと考えています。",
+    "blankWord": "important",
+    "category": "形式目的語"
+  },
+  {
+    "en": "There were several questions left at the end of the class.",
+    "ja": "授業の終わりには、いくつかの質問が残っていました。",
+    "blankWord": "There",
+    "category": "存在構文"
+  },
+  {
+    "en": "There has been a big change in my study routine this month.",
+    "ja": "今月、私の勉強習慣には大きな変化がありました。",
+    "blankWord": "There",
+    "category": "存在構文"
+  },
+  {
+    "en": "We watched the birds fly over the lake.",
+    "ja": "私たちは鳥たちが湖の上を飛ぶのを眺めました。",
+    "blankWord": "fly",
+    "category": "知覚動詞"
+  },
+  {
+    "en": "I felt the ground shake during the earthquake.",
+    "ja": "地震の間、私は地面が揺れるのを感じました。",
+    "blankWord": "shake",
+    "category": "知覚動詞"
+  },
+  {
+    "en": "It is important to finish your homework before dinner.",
+    "ja": "夕食前に宿題を終えることは重要です。",
+    "blankWord": "to",
+    "category": "It to構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It was surprising that he passed the exam.",
+    "ja": "彼が試験に合格したのは驚きだった。",
+    "blankWord": "that",
+    "category": "It that構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "I don’t know where she bought that book.",
+    "ja": "彼女がその本をどこで買ったのか分からない。",
+    "blankWord": "where",
+    "category": "間接疑問",
+    "difficulty": "medium"
+  },
+  {
+    "en": "He asked me what to do next.",
+    "ja": "彼は次に何をすべきか私に尋ねた。",
+    "blankWord": "what",
+    "category": "疑問詞＋to不定詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "I found it difficult to understand the lecture.",
+    "ja": "その講義を理解するのは難しいと感じた。",
+    "blankWord": "it",
+    "category": "形式目的語",
+    "difficulty": "medium"
+  },
+  {
+    "en": "There are many students in the library after school.",
+    "ja": "放課後、図書館には多くの生徒がいる。",
+    "blankWord": "There",
+    "category": "存在構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "I saw him enter the classroom quietly.",
+    "ja": "私は彼が静かに教室に入るのを見た。",
+    "blankWord": "enter",
+    "category": "知覚動詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It is necessary that every student be on time.",
+    "ja": "すべての生徒が時間通りに来ることが必要だ。",
+    "blankWord": "be",
+    "category": "仮定法現在",
+    "difficulty": "hard"
+  },
+  {
+    "en": "She had already left when I arrived at the station.",
+    "ja": "私が駅に着いたとき、彼女はすでに出発していた。",
+    "blankWord": "had",
+    "category": "過去完了",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It is fun to play soccer with my friends after school.",
+    "ja": "放課後に友達とサッカーをするのは楽しい。",
+    "blankWord": "to",
+    "category": "It to構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It is true that he practices every day.",
+    "ja": "彼が毎日練習しているのは本当だ。",
+    "blankWord": "that",
+    "category": "It that構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "Do you know how she solved the problem?",
+    "ja": "彼女がその問題をどう解いたのか知っていますか。",
+    "blankWord": "how",
+    "category": "間接疑問",
+    "difficulty": "medium"
+  },
+  {
+    "en": "He couldn’t decide which to choose for his project.",
+    "ja": "彼はプロジェクトのためにどれを選ぶべきか決められなかった。",
+    "blankWord": "which",
+    "category": "疑問詞＋to不定詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "She made it clear that she would join the club.",
+    "ja": "彼女はそのクラブに入るつもりだと明らかにした。",
+    "blankWord": "it",
+    "category": "形式目的語",
+    "difficulty": "medium"
+  },
+  {
+    "en": "There was a meeting in the classroom yesterday.",
+    "ja": "昨日、その教室で会議があった。",
+    "blankWord": "There",
+    "category": "存在構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "I heard someone call my name in the hallway.",
+    "ja": "廊下で誰かが私の名前を呼ぶのを聞いた。",
+    "blankWord": "call",
+    "category": "知覚動詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It is essential that he study for the final exam.",
+    "ja": "彼が期末試験のために勉強することは不可欠だ。",
+    "blankWord": "study",
+    "category": "仮定法現在",
+    "difficulty": "hard"
+  },
+  {
+    "en": "By the time the class started, I had finished my report.",
+    "ja": "授業が始まるまでに、私はレポートを終えていた。",
+    "blankWord": "had",
+    "category": "過去完了",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It is hard to speak English in front of many people.",
+    "ja": "多くの人の前で英語を話すのは難しい。",
+    "blankWord": "to",
+    "category": "It to構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It is obvious that she is the best player on the team.",
+    "ja": "彼女がチームで一番の選手であることは明らかだ。",
+    "blankWord": "that",
+    "category": "It that構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It is difficult to remember all the new words.",
+    "ja": "すべての新しい単語を覚えるのは難しい。",
+    "blankWord": "to",
+    "category": "It to構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It was clear that the teacher was angry.",
+    "ja": "先生が怒っていたのは明らかだった。",
+    "blankWord": "that",
+    "category": "It that構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "Can you tell me why he was absent yesterday?",
+    "ja": "なぜ彼が昨日欠席したのか教えてくれますか。",
+    "blankWord": "why",
+    "category": "間接疑問",
+    "difficulty": "medium"
+  },
+  {
+    "en": "She is thinking about where to spend her summer vacation.",
+    "ja": "彼女は夏休みをどこで過ごすか考えている。",
+    "blankWord": "where",
+    "category": "疑問詞＋to不定詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "I consider it important to review lessons every day.",
+    "ja": "毎日復習することが重要だと私は考える。",
+    "blankWord": "it",
+    "category": "形式目的語",
+    "difficulty": "medium"
+  },
+  {
+    "en": "There is a new student in our class.",
+    "ja": "私たちのクラスに新しい生徒がいる。",
+    "blankWord": "There",
+    "category": "存在構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "We watched the players practice on the field.",
+    "ja": "私たちは選手たちがグラウンドで練習するのを見た。",
+    "blankWord": "practice",
+    "category": "知覚動詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It is important that she arrive early for the meeting.",
+    "ja": "彼女が会議に早く到着することが重要だ。",
+    "blankWord": "arrive",
+    "category": "仮定法現在",
+    "difficulty": "hard"
+  },
+  {
+    "en": "He had finished his homework before dinner.",
+    "ja": "彼は夕食前に宿題を終えていた。",
+    "blankWord": "had",
+    "category": "過去完了",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It is exciting to learn new things in science class.",
+    "ja": "理科の授業で新しいことを学ぶのはわくわくする。",
+    "blankWord": "to",
+    "category": "It to構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It seems that he forgot his notebook.",
+    "ja": "彼はノートを忘れたようだ。",
+    "blankWord": "that",
+    "category": "It that構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "I wonder when the next test will be held.",
+    "ja": "次のテストがいつ行われるのか気になる。",
+    "blankWord": "when",
+    "category": "間接疑問",
+    "difficulty": "medium"
+  },
+  {
+    "en": "He doesn’t know how to use this software.",
+    "ja": "彼はこのソフトの使い方を知らない。",
+    "blankWord": "how",
+    "category": "疑問詞＋to不定詞",
+    "difficulty": "easy"
+  },
+  {
+    "en": "The teacher made it easy to understand the problem.",
+    "ja": "先生はその問題を理解しやすくした。",
+    "blankWord": "it",
+    "category": "形式目的語",
+    "difficulty": "medium"
+  },
+  {
+    "en": "There were many books on the desk.",
+    "ja": "机の上にはたくさんの本があった。",
+    "blankWord": "There",
+    "category": "存在構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "I felt the ground shake during the earthquake.",
+    "ja": "地震の間、地面が揺れるのを感じた。",
+    "blankWord": "shake",
+    "category": "知覚動詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It is necessary that he be careful with his work.",
+    "ja": "彼が仕事で注意深くあることが必要だ。",
+    "blankWord": "be",
+    "category": "仮定法現在",
+    "difficulty": "hard"
+  },
+  {
+    "en": "She had never seen such a beautiful view before.",
+    "ja": "彼女はそれまでそんなに美しい景色を見たことがなかった。",
+    "blankWord": "had",
+    "category": "過去完了",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It is useful to take notes during the lesson.",
+    "ja": "授業中にメモを取ることは役に立つ。",
+    "blankWord": "to",
+    "category": "It to構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It is certain that they will win the game.",
+    "ja": "彼らが試合に勝つのは確実だ。",
+    "blankWord": "that",
+    "category": "It that構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It is essential to consider all possible outcomes before making a decision.",
+    "ja": "決定を下す前にすべての可能な結果を考慮することは不可欠だ。",
+    "blankWord": "to",
+    "category": "It to構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It was unexpected that the presentation ended so quickly.",
+    "ja": "発表がこんなに早く終わったのは予想外だった。",
+    "blankWord": "that",
+    "category": "It that構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "I have no idea why he refused to join the discussion.",
+    "ja": "なぜ彼が議論への参加を拒否したのか全く分からない。",
+    "blankWord": "why",
+    "category": "間接疑問",
+    "difficulty": "medium"
+  },
+  {
+    "en": "She couldn’t decide which to choose among the many options.",
+    "ja": "多くの選択肢の中からどれを選ぶべきか決められなかった。",
+    "blankWord": "which",
+    "category": "疑問詞＋to不定詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The teacher made it clear that cheating would not be tolerated.",
+    "ja": "不正行為は許されないことを先生は明確にした。",
+    "blankWord": "it",
+    "category": "形式目的語",
+    "difficulty": "medium"
+  },
+  {
+    "en": "There remains a serious problem that must be solved immediately.",
+    "ja": "すぐに解決しなければならない重大な問題が残っている。",
+    "blankWord": "There",
+    "category": "存在構文",
+    "difficulty": "hard"
+  },
+  {
+    "en": "I noticed him leave the room without saying anything.",
+    "ja": "彼が何も言わずに部屋を出るのに気づいた。",
+    "blankWord": "leave",
+    "category": "知覚動詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It is vital that every participant follow the instructions carefully.",
+    "ja": "すべての参加者が指示に注意深く従うことが重要だ。",
+    "blankWord": "follow",
+    "category": "仮定法現在",
+    "difficulty": "hard"
+  },
+  {
+    "en": "By the time the teacher arrived, the students had already started the discussion.",
+    "ja": "先生が到着したときには、生徒たちはすでに議論を始めていた。",
+    "blankWord": "had",
+    "category": "過去完了",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It is challenging to express complex ideas in a foreign language.",
+    "ja": "外国語で複雑な考えを表現するのは難しい。",
+    "blankWord": "to",
+    "category": "It to構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It appears that the results were influenced by external factors.",
+    "ja": "結果は外的要因の影響を受けたようだ。",
+    "blankWord": "that",
+    "category": "It that構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Can you explain how the experiment was conducted?",
+    "ja": "その実験がどのように行われたのか説明できますか。",
+    "blankWord": "how",
+    "category": "間接疑問",
+    "difficulty": "medium"
+  },
+  {
+    "en": "He is unsure what to write in his report.",
+    "ja": "彼はレポートに何を書くべきか分かっていない。",
+    "blankWord": "what",
+    "category": "疑問詞＋to不定詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "We found it impossible to complete the task within the time limit.",
+    "ja": "制限時間内にその課題を終えるのは不可能だと分かった。",
+    "blankWord": "it",
+    "category": "形式目的語",
+    "difficulty": "medium"
+  },
+  {
+    "en": "There exists a strong relationship between effort and achievement.",
+    "ja": "努力と成果の間には強い関係が存在する。",
+    "blankWord": "There",
+    "category": "存在構文",
+    "difficulty": "hard"
+  },
+  {
+    "en": "She heard someone knock on the door late at night.",
+    "ja": "彼女は夜遅くに誰かがドアをノックするのを聞いた。",
+    "blankWord": "knock",
+    "category": "知覚動詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It is crucial that the data be analyzed with great care.",
+    "ja": "そのデータは細心の注意を払って分析されることが重要だ。",
+    "blankWord": "be",
+    "category": "仮定法現在",
+    "difficulty": "hard"
+  },
+  {
+    "en": "He had never experienced such difficulty before he started the project.",
+    "ja": "そのプロジェクトを始める前、彼はそのような困難を経験したことがなかった。",
+    "blankWord": "had",
+    "category": "過去完了",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It is beneficial to review your notes regularly.",
+    "ja": "定期的にノートを見直すことは有益だ。",
+    "blankWord": "to",
+    "category": "It to構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It is evident that practice plays a key role in language learning.",
+    "ja": "練習が言語学習において重要な役割を果たすことは明らかだ。",
+    "blankWord": "that",
+    "category": "It that構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "If I had more free time, I would learn another language.",
+    "ja": "もっと自由な時間があれば、別の言語を学ぶだろう。",
+    "blankWord": "had",
+    "category": "仮定法過去",
+    "difficulty": "medium"
+  },
+  {
+    "en": "If he were more careful, he would not make so many mistakes.",
+    "ja": "彼がもっと注意深ければ、そんなに多くのミスはしないだろう。",
+    "blankWord": "were",
+    "category": "仮定法過去",
+    "difficulty": "medium"
+  },
+  {
+    "en": "If we lived closer to the station, we could walk there.",
+    "ja": "もし駅の近くに住んでいれば、そこまで歩いて行けるのに。",
+    "blankWord": "lived",
+    "category": "仮定法過去",
+    "difficulty": "medium"
+  },
+  {
+    "en": "If they had followed the map, they would not have gotten lost.",
+    "ja": "もし彼らが地図に従っていたら、道に迷わなかっただろう。",
+    "blankWord": "had",
+    "category": "仮定法過去完了",
+    "difficulty": "medium"
+  },
+  {
+    "en": "If I had brought my umbrella, I would have stayed dry.",
+    "ja": "もし傘を持ってきていたら、ぬれずに済んだだろう。",
+    "blankWord": "brought",
+    "category": "仮定法過去完了",
+    "difficulty": "medium"
+  },
+  {
+    "en": "If she had listened to your advice, she would have avoided the problem.",
+    "ja": "もし彼女があなたの助言を聞いていたら、その問題を避けられただろう。",
+    "blankWord": "listened",
+    "category": "仮定法過去完了",
+    "difficulty": "medium"
+  },
+  {
+    "en": "I have already read that book twice.",
+    "ja": "私はすでにその本を2回読んだことがある。",
+    "blankWord": "already",
+    "category": "現在完了",
+    "difficulty": "easy"
+  },
+  {
+    "en": "We have known each other since elementary school.",
+    "ja": "私たちは小学校以来ずっと知り合いだ。",
+    "blankWord": "since",
+    "category": "現在完了",
+    "difficulty": "easy"
+  },
+  {
+    "en": "Have you finished your project yet?",
+    "ja": "あなたはもうプロジェクトを終えましたか。",
+    "blankWord": "yet",
+    "category": "現在完了",
+    "difficulty": "easy"
+  },
+  {
+    "en": "What she said made everyone laugh.",
+    "ja": "彼女が言ったことはみんなを笑わせた。",
+    "blankWord": "What",
+    "category": "名詞節",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Whether we can finish on time depends on the weather.",
+    "ja": "時間通りに終えられるかどうかは天気次第だ。",
+    "blankWord": "Whether",
+    "category": "名詞節",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The problem is that nobody knows the answer.",
+    "ja": "問題は、だれもその答えを知らないことだ。",
+    "blankWord": "that",
+    "category": "名詞節",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It seems that the meeting has been canceled.",
+    "ja": "会議は中止になったようだ。",
+    "blankWord": "seems",
+    "category": "形式主語",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It appears that someone left the window open.",
+    "ja": "だれかが窓を開けたままにしたようだ。",
+    "blankWord": "appears",
+    "category": "形式主語",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It turned out that the keys were in my bag.",
+    "ja": "結局、鍵は私のかばんの中にあったことが分かった。",
+    "blankWord": "turned",
+    "category": "形式主語",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Unless you leave now, you will miss the last bus.",
+    "ja": "今出発しなければ、終バスに乗り遅れるだろう。",
+    "blankWord": "Unless",
+    "category": "条件文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "You may use this room provided that you keep it clean.",
+    "ja": "きれいに使うなら、この部屋を使ってよい。",
+    "blankWord": "provided",
+    "category": "条件文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "If you heat ice, it melts.",
+    "ja": "氷を熱すると、それは溶ける。",
+    "blankWord": "If",
+    "category": "条件文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "The man talking with our teacher is my uncle.",
+    "ja": "私たちの先生と話している男性は私のおじです。",
+    "blankWord": "talking",
+    "category": "現在分詞",
+    "difficulty": "easy"
+  },
+  {
+    "en": "Look at the children running in the park.",
+    "ja": "公園を走っている子どもたちを見てください。",
+    "blankWord": "running",
+    "category": "現在分詞",
+    "difficulty": "easy"
+  },
+  {
+    "en": "The train arriving at platform 3 is bound for Sendai.",
+    "ja": "3番線に到着する電車は仙台行きです。",
+    "blankWord": "arriving",
+    "category": "現在分詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The pictures taken during the trip were beautiful.",
+    "ja": "旅行中に撮られた写真は美しかった。",
+    "blankWord": "taken",
+    "category": "過去分詞",
+    "difficulty": "easy"
+  },
+  {
+    "en": "The language spoken in that region is difficult for me.",
+    "ja": "その地域で話されている言語は私には難しい。",
+    "blankWord": "spoken",
+    "category": "過去分詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The report written in English was easy to read.",
+    "ja": "英語で書かれたその報告書は読みやすかった。",
+    "blankWord": "written",
+    "category": "過去分詞",
+    "difficulty": "easy"
+  },
+  {
+    "en": "She saved money so that she could study abroad.",
+    "ja": "彼女は留学できるようにお金をためた。",
+    "blankWord": "so",
+    "category": "目的構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "I got up early in order to catch the first train.",
+    "ja": "始発電車に乗るために私は早起きした。",
+    "blankWord": "order",
+    "category": "目的構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "He practiced every day to improve his pronunciation.",
+    "ja": "彼は発音を良くするために毎日練習した。",
+    "blankWord": "to",
+    "category": "目的構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "The box was so heavy that I could not lift it.",
+    "ja": "その箱はとても重かったので、私は持ち上げることができなかった。",
+    "blankWord": "so",
+    "category": "結果構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It was such an interesting story that I read it twice.",
+    "ja": "それはとても面白い話だったので、私は2回読んだ。",
+    "blankWord": "such",
+    "category": "結果構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "He spoke so fast that I could not understand him.",
+    "ja": "彼はとても速く話したので、私は理解できなかった。",
+    "blankWord": "fast",
+    "category": "結果構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Both reading and writing are important for language learning.",
+    "ja": "読むことと書くことの両方が語学学習には重要だ。",
+    "blankWord": "Both",
+    "category": "相関接続詞",
+    "difficulty": "easy"
+  },
+  {
+    "en": "Whether you win or lose, you should do your best.",
+    "ja": "勝っても負けても、最善を尽くすべきだ。",
+    "blankWord": "Whether",
+    "category": "相関接続詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Not only did she apologize, but she also fixed the mistake.",
+    "ja": "彼女は謝っただけでなく、その間違いも直した。",
+    "blankWord": "Not",
+    "category": "相関接続詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "She was happy to have passed the entrance exam.",
+    "ja": "彼女は入学試験に合格していてうれしかった。",
+    "blankWord": "have",
+    "category": "完了不定詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The thief is believed to have escaped through the window.",
+    "ja": "その泥棒は窓から逃げたと考えられている。",
+    "blankWord": "have",
+    "category": "完了不定詞",
+    "difficulty": "hard"
+  },
+  {
+    "en": "I am sorry to have caused you so much trouble.",
+    "ja": "あなたにそんなに迷惑をかけてしまって申し訳ありません。",
+    "blankWord": "have",
+    "category": "完了不定詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "She appears to have forgotten the appointment.",
+    "ja": "彼女はその約束を忘れてしまったようだ。",
+    "blankWord": "have",
+    "category": "完了不定詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "He is old enough to travel by himself.",
+    "ja": "彼は一人で旅行できるほど十分に大人だ。",
+    "blankWord": "enough",
+    "category": "enough構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "The water was warm enough to swim in.",
+    "ja": "その水は泳げるほど十分に暖かかった。",
+    "blankWord": "enough",
+    "category": "enough構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "She spoke slowly enough for everyone to understand.",
+    "ja": "彼女はみんなが理解できるほど十分にゆっくり話した。",
+    "blankWord": "enough",
+    "category": "enough構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The bag was too heavy for me to carry.",
+    "ja": "そのかばんは私が運ぶには重すぎた。",
+    "blankWord": "too",
+    "category": "too〜to構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It was too dark to read the sign.",
+    "ja": "暗すぎてその標識を読むことができなかった。",
+    "blankWord": "too",
+    "category": "too〜to構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "She was too busy to answer my email.",
+    "ja": "彼女は忙しすぎて私のメールに返事ができなかった。",
+    "blankWord": "too",
+    "category": "too〜to構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "You had better finish your homework now.",
+    "ja": "今すぐ宿題を終えたほうがよい。",
+    "blankWord": "better",
+    "category": "慣用表現",
+    "difficulty": "easy"
+  },
+  {
+    "en": "I cannot help laughing when I hear that joke.",
+    "ja": "その冗談を聞くと笑わずにはいられない。",
+    "blankWord": "help",
+    "category": "慣用表現",
+    "difficulty": "medium"
+  },
+  {
+    "en": "You are supposed to wear a uniform at this school.",
+    "ja": "この学校では制服を着ることになっている。",
+    "blankWord": "supposed",
+    "category": "慣用表現",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Mt. Fuji is the highest mountain in Japan.",
+    "ja": "富士山は日本で最も高い山です。",
+    "blankWord": "highest",
+    "category": "最上級",
+    "difficulty": "easy"
+  },
+  {
+    "en": "This was the most difficult question on the test.",
+    "ja": "これはそのテストで最も難しい問題だった。",
+    "blankWord": "most",
+    "category": "最上級",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Sunday is the busiest day of the week for this store.",
+    "ja": "日曜日はこの店にとって一週間で最も忙しい日だ。",
+    "blankWord": "busiest",
+    "category": "最上級",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Even if it rains tomorrow, we will go on the trip.",
+    "ja": "たとえ明日雨が降っても、私たちはその旅行に行くつもりだ。",
+    "blankWord": "Even",
+    "category": "譲歩表現",
+    "difficulty": "medium"
+  },
+  {
+    "en": "However hard he tried, he could not open the jar.",
+    "ja": "どんなに彼が頑張っても、その瓶を開けることはできなかった。",
+    "blankWord": "However",
+    "category": "譲歩表現",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Whoever wins the game, we will celebrate together.",
+    "ja": "だれが試合に勝っても、私たちは一緒に祝うつもりだ。",
+    "blankWord": "Whoever",
+    "category": "譲歩表現",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Please take care of your health during the winter.",
+    "ja": "冬の間は健康に気をつけてください。",
+    "blankWord": "care",
+    "category": "慣用表現",
+    "difficulty": "easy"
+  },
+  {
+    "en": "He finally made up his mind to tell the truth.",
+    "ja": "彼はついに本当のことを話す決心をした。",
+    "blankWord": "mind",
+    "category": "慣用表現",
+    "difficulty": "medium"
+  },
+  {
+    "en": "We will do our best to finish the project on time.",
+    "ja": "私たちは時間通りにそのプロジェクトを終えるために最善を尽くします。",
+    "blankWord": "best",
+    "category": "慣用表現",
+    "difficulty": "medium"
+  },
+  {
+    "en": "All of a sudden, the dog started barking loudly.",
+    "ja": "突然、その犬が大きな声でほえ始めた。",
+    "blankWord": "sudden",
+    "category": "慣用表現",
+    "difficulty": "medium"
+  },
+  {
+    "en": "By the way, where did you buy that notebook?",
+    "ja": "ところで、そのノートはどこで買ったのですか。",
+    "blankWord": "way",
+    "category": "慣用表現",
+    "difficulty": "easy"
+  },
+  {
+    "en": "In the end, everyone agreed with her opinion.",
+    "ja": "結局、みんなが彼女の意見に賛成した。",
+    "blankWord": "end",
+    "category": "慣用表現",
+    "difficulty": "easy"
+  },
+  {
+    "en": "I see my cousins from time to time.",
+    "ja": "私はときどきいとこたちに会います。",
+    "blankWord": "time",
+    "category": "慣用表現",
+    "difficulty": "easy"
+  },
+  {
+    "en": "He got to the station just in time for the train.",
+    "ja": "彼は列車にちょうど間に合うように駅に着いた。",
+    "blankWord": "time",
+    "category": "慣用表現",
+    "difficulty": "easy"
+  },
+  {
+    "en": "To my surprise, she remembered my birthday.",
+    "ja": "驚いたことに、彼女は私の誕生日を覚えていた。",
+    "blankWord": "surprise",
+    "category": "慣用表現",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The meeting was put off because of the storm.",
+    "ja": "嵐のため会議は延期された。",
+    "blankWord": "off",
+    "category": "慣用表現",
+    "difficulty": "medium"
+  },
+  {
+    "en": "My father is good at fixing broken bikes.",
+    "ja": "父は壊れた自転車を修理するのが得意だ。",
+    "blankWord": "good",
+    "category": "慣用表現",
+    "difficulty": "easy"
+  },
+  {
+    "en": "I am tired of hearing the same excuse.",
+    "ja": "私は同じ言い訳を聞くのにうんざりしている。",
+    "blankWord": "tired",
+    "category": "慣用表現",
+    "difficulty": "medium"
+  },
+  {
+    "en": "She is proud of her daughter's achievement.",
+    "ja": "彼女は娘の功績を誇りに思っている。",
+    "blankWord": "proud",
+    "category": "慣用表現",
+    "difficulty": "easy"
+  },
+  {
+    "en": "This school is famous for its brass band.",
+    "ja": "この学校は吹奏楽部で有名だ。",
+    "blankWord": "famous",
+    "category": "慣用表現",
+    "difficulty": "easy"
+  },
+  {
+    "en": "Your answer is different from mine.",
+    "ja": "あなたの答えは私のものと違う。",
+    "blankWord": "different",
+    "category": "慣用表現",
+    "difficulty": "easy"
+  },
+  {
+    "en": "If I knew her phone number, I would call her now.",
+    "ja": "もし彼女の電話番号を知っていたら、今すぐ彼女に電話するのに。",
+    "blankWord": "knew",
+    "category": "仮定法過去",
+    "difficulty": "medium"
+  },
+  {
+    "en": "If it were not so cold, we could go hiking.",
+    "ja": "もしこんなに寒くなければ、私たちはハイキングに行けるのに。",
+    "blankWord": "were",
+    "category": "仮定法過去",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Looking out of the window, I saw snow falling.",
+    "ja": "窓の外を見ると、雪が降っているのが見えた。",
+    "blankWord": "Looking",
+    "category": "分詞構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Having lost his wallet, he went to the police station.",
+    "ja": "財布をなくしてしまったので、彼は警察署へ行った。",
+    "blankWord": "Having",
+    "category": "分詞構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Why she said that remains a mystery.",
+    "ja": "なぜ彼女がそんなことを言ったのかは謎のままだ。",
+    "blankWord": "Why",
+    "category": "名詞節",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The truth is that he never received the email.",
+    "ja": "真実は、彼がそのメールを一度も受け取っていなかったということだ。",
+    "blankWord": "that",
+    "category": "名詞節",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It seems that the train is running late.",
+    "ja": "電車は遅れているようだ。",
+    "blankWord": "seems",
+    "category": "形式主語",
+    "difficulty": "easy"
+  },
+  {
+    "en": "It happened that I met her at the station.",
+    "ja": "たまたま私は駅で彼女に会った。",
+    "blankWord": "happened",
+    "category": "形式主語",
+    "difficulty": "medium"
+  },
+  {
+    "en": "If you press this button, the door will open automatically.",
+    "ja": "このボタンを押せば、ドアは自動で開きます。",
+    "blankWord": "If",
+    "category": "条件文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "As long as you keep practicing, you will improve.",
+    "ja": "練習を続ける限り、あなたは上達するだろう。",
+    "blankWord": "long",
+    "category": "条件文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The woman carrying a red bag is my aunt.",
+    "ja": "赤いかばんを持っている女性は私のおばです。",
+    "blankWord": "carrying",
+    "category": "現在分詞",
+    "difficulty": "easy"
+  },
+  {
+    "en": "Students waiting outside the room should be quiet.",
+    "ja": "部屋の外で待っている生徒たちは静かにすべきだ。",
+    "blankWord": "waiting",
+    "category": "現在分詞",
+    "difficulty": "easy"
+  },
+  {
+    "en": "She went to the bakery to buy some bread.",
+    "ja": "彼女はパンを買うためにパン屋へ行った。",
+    "blankWord": "to",
+    "category": "目的構文",
+    "difficulty": "easy"
+  },
+  {
+    "en": "We used a map so that we would not get lost.",
+    "ja": "道に迷わないように、私たちは地図を使った。",
+    "blankWord": "so",
+    "category": "目的構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Neither the teacher nor the students were ready.",
+    "ja": "先生も生徒たちも準備ができていなかった。",
+    "blankWord": "Neither",
+    "category": "相関接続詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "Not only Tom but also his sister can speak French.",
+    "ja": "トムだけでなく彼の姉もフランス語を話せる。",
+    "blankWord": "Not",
+    "category": "相関接続詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The movie was so boring that many people left early.",
+    "ja": "その映画はとても退屈だったので、多くの人が早く帰った。",
+    "blankWord": "so",
+    "category": "結果構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "It was such a cold day that the lake froze.",
+    "ja": "とても寒い日だったので、その湖は凍った。",
+    "blankWord": "such",
+    "category": "結果構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The cake baked by my mother was delicious.",
+    "ja": "母によって焼かれたケーキはおいしかった。",
+    "blankWord": "baked",
+    "category": "過去分詞",
+    "difficulty": "easy"
+  },
+  {
+    "en": "The questions asked in the interview were difficult.",
+    "ja": "面接で尋ねられた質問は難しかった。",
+    "blankWord": "asked",
+    "category": "過去分詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The hall is large enough to hold five hundred people.",
+    "ja": "そのホールは500人を収容できるほど十分に広い。",
+    "blankWord": "enough",
+    "category": "enough構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "He ran fast enough to catch the last bus.",
+    "ja": "彼は終バスに間に合うほど十分に速く走った。",
+    "blankWord": "enough",
+    "category": "enough構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "The problem was too difficult for me to solve alone.",
+    "ja": "その問題は私が一人で解くには難しすぎた。",
+    "blankWord": "too",
+    "category": "too〜to構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "She spoke too softly to be heard in the back.",
+    "ja": "彼女は後ろの席に聞こえるには声が小さすぎた。",
+    "blankWord": "too",
+    "category": "too〜to構文",
+    "difficulty": "medium"
+  },
+  {
+    "en": "If we had checked the weather forecast, we would have canceled the picnic.",
+    "ja": "もし天気予報を確認していたら、私たちはピクニックを中止していただろう。",
+    "blankWord": "checked",
+    "category": "仮定法過去完了",
+    "difficulty": "medium"
+  },
+  {
+    "en": "If he had taken the earlier train, he would have arrived on time.",
+    "ja": "もし彼がもっと早い電車に乗っていたら、時間通りに到着していただろう。",
+    "blankWord": "taken",
+    "category": "仮定法過去完了",
+    "difficulty": "medium"
+  },
+  {
+    "en": "He is lucky to have found such a good mentor.",
+    "ja": "彼はそんなに良い指導者を見つけられて幸運だ。",
+    "blankWord": "have",
+    "category": "完了不定詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "She seems to have misunderstood my question.",
+    "ja": "彼女は私の質問を誤解したようだ。",
+    "blankWord": "have",
+    "category": "完了不定詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "She has worked here since 2021.",
+    "ja": "彼女は2021年からここで働いている。",
+    "blankWord": "since",
+    "category": "現在完了",
+    "difficulty": "easy"
+  },
+  {
+    "en": "Have you talked with your teacher recently?",
+    "ja": "最近先生と話しましたか。",
+    "blankWord": "recently",
+    "category": "現在完了",
+    "difficulty": "easy"
+  },
+  {
+    "en": "I remember the day when we first talked online.",
+    "ja": "私たちが初めてオンラインで話した日を覚えています。",
+    "blankWord": "when",
+    "category": "関係副詞",
+    "difficulty": "medium"
+  },
+  {
+    "en": "That is the reason why I changed my plan.",
+    "ja": "それが私が計画を変えた理由です。",
+    "blankWord": "why",
+    "category": "関係副詞",
+    "difficulty": "medium"
   }
 ]
