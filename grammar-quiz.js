@@ -11,6 +11,7 @@ const quizElements = {
     orderSelect: document.getElementById("quiz-order"),
     setupStatus: document.getElementById("quiz-setup-status"),
     startBtn: document.getElementById("quiz-start-btn"),
+    backToSetupBtn: document.getElementById("quiz-back-to-setup-btn"),
     progressText: document.getElementById("quiz-progress-text"),
     sectionBadge: document.getElementById("quiz-section-badge"),
     categoryBadge: document.getElementById("quiz-category-badge"),
@@ -76,6 +77,7 @@ function bindQuizEvents() {
     quizElements.countSelect.addEventListener("change", updateQuizSetupStatus);
     quizElements.orderSelect.addEventListener("change", updateQuizSetupStatus);
     quizElements.startBtn.addEventListener("click", startQuizSession);
+    quizElements.backToSetupBtn.addEventListener("click", () => showQuizScreen("setup"));
     quizElements.nextBtn.addEventListener("click", goToNextQuizQuestion);
     quizElements.retryBtn.addEventListener("click", () => {
         if (!lastQuizSettings) {

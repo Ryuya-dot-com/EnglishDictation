@@ -2118,6 +2118,7 @@
     "en": "I see my cousins from time to time.",
     "ja": "私はときどきいとこたちに会います。",
     "blankWord": "time",
+    "blankOccurrence": 2,
     "category": "慣用表現",
     "difficulty": "easy"
   },
@@ -2265,6 +2266,7 @@
     "en": "She went to the bakery to buy some bread.",
     "ja": "彼女はパンを買うためにパン屋へ行った。",
     "blankWord": "to",
+    "blankOccurrence": 2,
     "category": "目的構文",
     "difficulty": "easy"
   },

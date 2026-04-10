@@ -403,6 +403,18 @@ input.error {
     color: var(--ink-strong);
 }
 
+.quiz-top-nav {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.quiz-back-btn {
+    flex: 0 0 auto;
+    width: auto;
+    padding: 10px 16px;
+    font-size: 14px;
+}
+
 .ja-text {
     font-size: 17px;
     font-weight: 700;

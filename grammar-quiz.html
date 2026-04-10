@@ -53,7 +53,7 @@
 
                 <div class="resource-links">
                     <a href="index.html" class="secondary-btn resource-link">ディクテーションに戻る</a>
-                    <a href="docs/grammar-review-quiz.md" class="ghost-btn resource-link">問題Markdownを見る</a>
+                    <a href="markdown-viewer.html?file=docs/grammar-review-quiz.md" class="ghost-btn resource-link">問題Markdownを見る</a>
                 </div>
 
                 <button id="quiz-start-btn" class="primary-btn" type="button">チェックを始める</button>
@@ -61,6 +61,9 @@
         </div>
 
         <div id="quiz-play-screen" class="screen">
+            <div class="quiz-top-nav">
+                <button id="quiz-back-to-setup-btn" class="ghost-btn quiz-back-btn" type="button">設定に戻る</button>
+            </div>
             <div class="header-info">
                 <span id="quiz-progress-text">問題: 1 / 10</span>
                 <div class="header-badges">

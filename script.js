@@ -959,13 +959,46 @@ function loadQuestion() {
     }
 }
 
+let currentAudioElement = null;
+
 function playAudio(text, options = {}) {
+    cancelSpeech();
+
+    const questionId = currentQuestionState && currentQuestionState.question
+        ? currentQuestionState.question.id
+        : null;
+
+    const useMP3 = questionId && options.kind !== "chunk";
+
+    if (useMP3) {
+        const audioSrc = `audio/${questionId}.mp3`;
+        if (currentAudioElement) {
+            currentAudioElement.pause();
+            currentAudioElement = null;
+        }
+        const audio = new Audio(audioSrc);
+        audio.playbackRate = settings.speed;
+        audio.play().then(() => {
+            currentAudioElement = audio;
+            trackAudioPlay(options);
+        }).catch(() => {
+            currentAudioElement = null;
+            playAudioViaTTS(text, options);
+        });
+    } else {
+        playAudioViaTTS(text, options);
+    }
+}
+
+function playAudioViaTTS(text, options = {}) {
     if (!window.speechSynthesis) {
         elements.liveFeedback.textContent = "このブラウザでは音声再生が利用できません。";
         return;
     }
 
-    cancelSpeech();
+    if (window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+    }
 
     const utterance = new SpeechSynthesisUtterance(text);
     const voices = window.speechSynthesis.getVoices();
@@ -980,7 +1013,10 @@ function playAudio(text, options = {}) {
 
     utterance.rate = settings.speed;
     window.speechSynthesis.speak(utterance);
+    trackAudioPlay(options);
+}
 
+function trackAudioPlay(options) {
     if (currentQuestionState) {
         if (options.kind === "chunk") {
             currentQuestionState.chunkPlays += 1;
@@ -1012,6 +1048,10 @@ function playAudio(text, options = {}) {
 }
 
 function cancelSpeech() {
+    if (currentAudioElement) {
+        currentAudioElement.pause();
+        currentAudioElement = null;
+    }
     if (window.speechSynthesis && window.speechSynthesis.speaking) {
         window.speechSynthesis.cancel();
     }
