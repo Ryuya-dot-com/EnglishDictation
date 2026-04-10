@@ -348,6 +348,7 @@ elements.nextBtn.addEventListener("click", () => {
         return;
     }
 
+    cancelSpeech();
     stopShadowingPlayback();
     currentIndex += 1;
     if (currentIndex >= playQueue.length) {
@@ -380,6 +381,13 @@ elements.retryMissedBtn.addEventListener("click", () => {
         return;
     }
     startSession(retryQueue);
+});
+
+elements.typeInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" && currentQuestionState && !currentQuestionState.finalized) {
+        event.preventDefault();
+        finalizeQuestion("submitted");
+    }
 });
 
 elements.typeInput.addEventListener("input", (event) => {
@@ -868,6 +876,7 @@ function startSession(queue) {
 }
 
 function loadQuestion() {
+    cancelSpeech();
     const question = playQueue[currentIndex];
     const isShadowing = settings.mode === "shadowing";
     const metaHidden = settings.mode === "test";
@@ -960,6 +969,7 @@ function loadQuestion() {
 }
 
 let currentAudioElement = null;
+let audioPlayId = 0;
 
 function playAudio(text, options = {}) {
     cancelSpeech();
@@ -972,16 +982,23 @@ function playAudio(text, options = {}) {
 
     if (useMP3) {
         const audioSrc = `audio/${questionId}.mp3`;
-        if (currentAudioElement) {
-            currentAudioElement.pause();
-            currentAudioElement = null;
-        }
+        const thisPlayId = ++audioPlayId;
         const audio = new Audio(audioSrc);
-        audio.playbackRate = settings.speed;
-        audio.play().then(() => {
-            currentAudioElement = audio;
+        audio.playbackRate = Math.min(Math.max(settings.speed || 1, 0.25), 4);
+        currentAudioElement = audio;
+        audio.onerror = function () {
+            if (audioPlayId !== thisPlayId) return;
+            currentAudioElement = null;
+            playAudioViaTTS(text, options);
+        };
+        audio.play().then(function () {
+            if (audioPlayId !== thisPlayId) {
+                audio.pause();
+                return;
+            }
             trackAudioPlay(options);
-        }).catch(() => {
+        }).catch(function () {
+            if (audioPlayId !== thisPlayId) return;
             currentAudioElement = null;
             playAudioViaTTS(text, options);
         });
@@ -1011,7 +1028,7 @@ function playAudioViaTTS(text, options = {}) {
         utterance.voice = preferredVoice;
     }
 
-    utterance.rate = settings.speed;
+    utterance.rate = Math.min(Math.max(settings.speed || 1, 0.1), 10);
     window.speechSynthesis.speak(utterance);
     trackAudioPlay(options);
 }

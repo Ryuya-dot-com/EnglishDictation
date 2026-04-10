@@ -154,24 +154,25 @@
                 .catch(function (err) {
                     document.getElementById("md-body").innerHTML =
                         "<p>読み込みに失敗しました。ローカルサーバー経由で開いてください。</p>" +
-                        "<p><code>" + err.message + "</code></p>";
+                        "<p><code>" + esc(err.message) + "</code></p>";
                 });
 
+            function esc(s) {
+                return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+            }
+
             function renderMarkdown(text) {
-                var html = text
-                    .replace(/&/g, "&amp;")
-                    .replace(/</g, "&lt;")
-                    .replace(/>/g, "&gt;");
+                var html = esc(text);
 
-                html = html.replace(/^### (.+)$/gm, "<h3>$1</h3>");
-                html = html.replace(/^## (.+)$/gm, "<h2>$1</h2>");
-                html = html.replace(/^# (.+)$/gm, "<h1>$1</h1>");
+                html = html.replace(/^### (.+)$/gm, function (m, g) { return "<h3>" + g + "</h3>"; });
+                html = html.replace(/^## (.+)$/gm, function (m, g) { return "<h2>" + g + "</h2>"; });
+                html = html.replace(/^# (.+)$/gm, function (m, g) { return "<h1>" + g + "</h1>"; });
 
-                html = html.replace(/`([^`\n]+)`/g, "<code>$1</code>");
-                html = html.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+                html = html.replace(/`([^`\n]+)`/g, function (m, g) { return "<code>" + g + "</code>"; });
+                html = html.replace(/\*\*([^*]+)\*\*/g, function (m, g) { return "<strong>" + g + "</strong>"; });
 
-                html = html.replace(/^(\d+)\.\s+(.+)$/gm, '<li class="ol-item">$2</li>');
-                html = html.replace(/^- (.+)$/gm, "<li>$1</li>");
+                html = html.replace(/^(\d+)\.\s+(.+)$/gm, function (m, n, g) { return '<li class="ol-item">' + g + "</li>"; });
+                html = html.replace(/^- (.+)$/gm, function (m, g) { return "<li>" + g + "</li>"; });
 
                 html = html.replace(/((?:<li class="ol-item">[^]*?<\/li>\s*)+)/g, function (block) {
                     return "<ol>" + block.replace(/ class="ol-item"/g, "") + "</ol>";
